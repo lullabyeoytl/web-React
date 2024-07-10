@@ -1,0 +1,14 @@
+{
+    "name": {
+        "first": "Lullabye",
+        "last":"bushnell"
+    },
+    "fromWisconsin":false,
+    "numCrredits" : 5,
+    "major": "Computer Science",
+    "interests": [
+        "reading",
+        "hiking",
+        "traveling"
+    ]
+}
