@@ -87,3 +87,21 @@ console.log(max); // 10
 # CSS Libraries
 - Bootstrap: a popular CSS framework that provides ready-made components for building responsive web pages.
 
+
+# DOM Manipulation
+<a>https://www.w3schools.com/js/js_htmldom_document.asp</a> 
+The HTML DOM document object is the owner of all other objects in your web page.
+- find elements: document.getElementById / TagName / ClassName()
+- add elements:
+  <ol> 
+   <li> document.createElement("div") : create a new element(div) node
+   <li>document.createTextNode() : create a new text node
+   <li>document.parentNode.appendChild() : add the new node to the parent node
+   <li> remove elements: parentNode.removeChild(childNode)
+  </ol>
+- change elements: 
+   element.innerHTML / element.style.property / element.setAttribute()
+
+
+# javascript debugger:
+浏览器是Javascript的调试工具，即f12进入开发者工具页面，可以看到console、network、sources、elements、breakpoints等选项卡，其中console选项卡是调试Javascript的最常用工具，可以输入Javascript代码，执行代码，查看执行结果，还可以设置断点，查看变量值等。
