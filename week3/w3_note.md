@@ -32,7 +32,7 @@ console.log(sum); // 15
 ``` 
 
 # syntax sugar
-- ${expr}:   `string interpolation` using template literals
+- `${expr}`:string interpolation` using template literals
 
 
 ```javascript
