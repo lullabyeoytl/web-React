@@ -1,4 +1,4 @@
-# declarative programming in javascript
+## declarative programming in javascript
 
 - imperative programming: describes how to solve a problem by step-by-step instructions
 - declarative programming: describes what the problem is, without specifying how to solve it    
@@ -31,7 +31,7 @@ let sum = arr.reduce((acc, cur) => acc + cur, 0);// acc is the accumulator and c
 console.log(sum); // 15
 ``` 
 
-# syntax sugar
+## syntax sugar
 - `${expr}`:string interpolation` using template literals
 
 
@@ -84,11 +84,11 @@ console.log(max); // 10
   const Is_Enabled = env.IsEnabled?? false; // false if env.IsEnabled is null or undefined.
   ```
 
-# CSS Libraries
+## CSS Libraries
 - Bootstrap: a popular CSS framework that provides ready-made components for building responsive web pages.
 
 
-# DOM Manipulation
+## DOM Manipulation
 <a>https://www.w3schools.com/js/js_htmldom_document.asp</a> 
 The HTML DOM document object is the owner of all other objects in your web page.
 - find elements: document.getElementById / TagName / ClassName()
@@ -103,5 +103,5 @@ The HTML DOM document object is the owner of all other objects in your web page.
    element.innerHTML / element.style.property / element.setAttribute()
 
 
-# javascript debugger:
+## javascript debugger:
 浏览器是Javascript的调试工具，即f12进入开发者工具页面，可以看到console、network、sources、elements、breakpoints等选项卡，其中console选项卡是调试Javascript的最常用工具，可以输入Javascript代码，执行代码，查看执行结果，还可以设置断点，查看变量值等。

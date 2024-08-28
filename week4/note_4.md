@@ -1,4 +1,4 @@
-# React --- javascript library for building user interfaces
+## React --- javascript library for building user interfaces
 
 <a>
 https://zh-hans.react.dev/learn</a>
@@ -30,7 +30,7 @@ ways to write html in javascript:
 - 重新渲染列表时，React 获取每个列表项的 key 并搜索前一个列表的项以查找匹配的 key。如果当前列表有一个之前不存在的 key，React 会创建一个组件。如果当前列表缺少前一个列表中存在的 key，React 会销毁前一个组件。如果两个 key 匹配，则落子相应的组件。
 - **强烈建议在构建动态列表时分配适当的 key**.如果你没有合适的 key，你可能需要考虑重组你的数据，以便你这样做。
 
-# react syntax
+## react syntax
 
 - JSX：一种 JavaScript 的语法扩展，它允许我们在 JavaScript 代码中嵌入 HTML。
 - props：props 是组件的属性，它是从父组件传递给子组件的输入。
@@ -44,7 +44,7 @@ react hook: 即react以函数构成的组件，返回html代码（组件），�
 - useContext：useContext 是一个 hook，它可以让我们在函数组件中获取上下文数据。  
 - useRef：useRef 是一个 hook，它可以让我们在函数组件中存储 DOM 节点或其他可变值。  
 
-# useEffect()
+## useEffect()
 useEffect()本身是一个函数，由 React 框架提供，在函数组件内部调用即可。
 
 举例来说，我们希望组件加载以后，网页标题（document.title）会随之改变。那么，改变网页标题这个操作，就是组件的副效应，必须通过useEffect()来实现。

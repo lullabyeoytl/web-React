@@ -1,4 +1,4 @@
-# persist data permanently and shared with other users
+## persist data permanently and shared with other users
 
 create/read update/delete data via HTTP requests:
 
@@ -28,7 +28,7 @@ that's why you may see 2 requests in your network log!
 
 This is because of Cross-Origin Resource Sharing (CORS), which can get quite complex!
 
-# Uncontrolled Components:
+## Uncontrolled Components:
 
 sometimes don't care about some changes(rather than using useState to track any changes)
 
@@ -36,13 +36,13 @@ sometimes don't care about some changes(rather than using useState to track any 
 
 only concerned about the (current) value, not the state of the component
 
-# Input 
+## Input 
 
 each input should have an id associated with htmlFor of a label
 
 in Bootstrap, form.control has an id associated with html of Form.Label
 
-# Handling user credentials with cookies
+## Handling user credentials with cookies
 
  cookies hold a small amount of data that can be sent to the server with each request.
 
